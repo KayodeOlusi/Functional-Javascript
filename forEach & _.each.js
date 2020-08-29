@@ -30,14 +30,3 @@ console.log(name,'is younger than,')
 console.log(name,'is the oldest')
 }
 })
-
-
-//Using _.map function
-const weapons=['candlesticks','lead pipe','revolver'];
-
-const makeBrown = function(item){
-return `broken ${item}`;
-}
-
-_.map(weapons,makeBrown); 
-
