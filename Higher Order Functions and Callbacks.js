@@ -25,3 +25,23 @@ ifElse( true,
  () => {console.log(false);}
  );
 
+
+//ES6 Challenge{translate this to ES6}
+const increment = function(n){ return n + 1; };
+
+const square = function(n){return n*n;};
+
+const doThisMath = function(n,func){return func(n);};
+
+doThisMath(5,square);//this will log out 25
+
+doThisMath(4,increment);//this will log out 5
+
+
+//Challenge translation result
+
+const increment = n => {return n+1;};
+
+const square = n => {return n*n};
+
+const doThisMath = ( n, func ) => { return(func(n);};
