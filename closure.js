@@ -11,3 +11,14 @@ const generalFunc = createFunction();
 const result = generalFunc(3);
 
 //Logging out result is equal to 6
+
+//
+function outer(){
+    let counter = 0;
+    function incCounter(){
+       return counter++;
+    }
+    incCounter();
+}
+
+outer();
