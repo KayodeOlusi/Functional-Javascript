@@ -33,6 +33,21 @@ const square = function(n){return n*n;};
 
 const doThisMath = function(n,func){return func(n);};
 
+
+//another example
+function mapWith(array,callback){
+    var output = [];
+        array.forEach(function(item){
+    output.push(item)
+})
+}
+
+var multiply = function(){
+    return item * 2
+}
+
+var result = mapWith([1,2,3,4,5],multiply)
+
 doThisMath(5,square);//this will log out 25
 
 doThisMath(4,increment);//this will log out 5
