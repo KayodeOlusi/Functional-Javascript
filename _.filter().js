@@ -1,6 +1,6 @@
-const _={};
+const _ = {};
 
-_.filter=function(arr,cb){
+_.filter = function(arr,cb){
 const storage=[];
 
 for(let i=0;i<arr.length;i++){

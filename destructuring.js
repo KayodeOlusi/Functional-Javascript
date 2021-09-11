@@ -28,3 +28,16 @@ var {name,age,sex} = {
 }
 
 //name = alex, age = 18, sex = male
+
+var info = [
+    {
+        name : "Hanna",
+        color: "Orange"
+    },
+    {
+        name : "Mike",
+        color: "Pink"
+    }
+]
+
+var [ { color : firstColor }, { color: secondColor } ] = info
