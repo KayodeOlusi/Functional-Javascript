@@ -15,17 +15,17 @@ console.log(a,b)
 // a = 1, b = [2,3]
 
 //destructuring objects
-{
-    name: "alex",
-    age : 18,
-    sex : "male"
-}
+// {
+//     name: "alex",
+//     age : 18,
+//     sex : "male"
+// }
 
-var {name,age,sex} = {
-    name: "alex",
-    age : 18,
-    sex : "male"
-}
+// var {name,age,sex} = {
+//     name: "alex",
+//     age : 18,
+//     sex : "male"
+// }
 
 //name = alex, age = 18, sex = male
 

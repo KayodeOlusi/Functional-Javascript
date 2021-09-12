@@ -23,10 +23,10 @@ _.each = function(list,callback){
 
 };
 
-_.each(['sally','georgie','porgie'],function(name,i,list){
-if(name[i+1]){
-console.log(name[i],'is younger than', name[i+1])
+_.each(['sally','georgie','porgie'], function(name, i, list){
+if(name[i + 1]){
+console.log(name[i],'is younger than', name[i + 1])
 } else{
-console.log(name[i+1],'is the oldest')
+console.log(name[i + 1],'is the oldest')
 }
 })
