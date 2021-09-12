@@ -2,13 +2,12 @@
 var curry = (fn) => {
     return (arg) => {
         return (arg2) =>{
-      return fn(arg,arg2)      
+            return fn(arg, arg2)      
         }
     }
 }
 
 // Practical Example
-
 var student = 
           name =>
                 gender =>
