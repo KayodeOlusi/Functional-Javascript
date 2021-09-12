@@ -6,4 +6,4 @@ const makeBrown = function(item){
 return `broken ${item}`;
 }
 
-_.map(weapons,makeBrown); 
+_.map(weapons, makeBrown); 
