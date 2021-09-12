@@ -38,4 +38,4 @@ const reduce = function(list,callback,initial){
 reduce([2,3,5],(v,sum) => {v+sum});
 
 
-const doThisMath = ( n, func ) => { return(func(n);};
+const doThisMath = ( n, func ) => { return(func(n)) };
